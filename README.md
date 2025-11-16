@@ -33,7 +33,7 @@ local M = {
 }
 
 function M.config()
-    require("breadcrumbs").setup()
+    require("breadcrumbs").setup {three_level_path = true}
 end
 
 return M
